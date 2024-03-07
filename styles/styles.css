@@ -24,3 +24,16 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    max-width: 800px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2); 
+    padding: 1rem;
+    background-color: #eee;
+    color: center;
+}
