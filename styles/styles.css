@@ -37,3 +37,8 @@ aside {
     background-color: #eee;
     color: center;
 }
+
+aside img {
+    width: 200px;
+    height: auto;
+}
