@@ -8,18 +8,18 @@ body {
 }
 
 :root {
-    --primary-color: #000;
-    --secondary-color: #;
-    --accent1-color: #;
-    --accent2-color: #;
+    --primary-color: #FFC971;
+    --secondary-color: #FF9505;
+    --accent1-color: #CC5803;
+    --accent2-color: #FFB627;
 
-    --heading-font: ' ', serif;
-    --paragraph-font: '  ', serif;
+    --heading-font: 'IBM Plex Serif', serif;
+    --paragraph-font: 'Noto Sans Display', serif;
 
-    --nav-background-color: #;
-    --nav-link-color: #;
-    --nav-hover-link-color: #;
-    --nav-hover-background-color: #;
+    --nav-background-color: #EAF8BF;
+    --nav-link-color: #001D4A;
+    --nav-hover-link-color: #ECA400;
+    --nav-hover-background-color: #006992;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: #555;
+    background-color: #006992;
 }
 
 p {
