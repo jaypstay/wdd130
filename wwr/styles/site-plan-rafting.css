@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-    --primary-color: #;
+    --primary-color: #000;
     --secondary-color: #;
     --accent1-color: #;
     --accent2-color: #;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: #;
+    background-color: #555;
 }
 
 p {
