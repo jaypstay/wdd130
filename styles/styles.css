@@ -67,10 +67,17 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0,.1);
     padding: 1rem;
-    background-color: #FF4747;
+    background-color: #87bdd8;
 }
 
 aside {
     width: 20em;
     text-align: center;
+    }
+
+aside h2 {
+    position: relative;
+    top: 40px;
+    left: 0px;
+    color: #fff;
 }
