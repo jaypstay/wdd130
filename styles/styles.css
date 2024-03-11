@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -73,7 +73,7 @@ footer {
 aside {
     width: 20em;
     text-align: center;
-    position: relative
+    position: relative;
     }
 
 aside h2 {
