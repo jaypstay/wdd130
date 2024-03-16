@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-tawny: #CC5803;
+    --main-cocoa-brown: #E2711D;
+    --main-princeton-orange: #ff9505;
+    --mian-selective-yellow: #ffb627;
+    --main-xanthous: #ffc971;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Noto Sans Display', serif;
+    color: var(--main-tawny)
+}
+
+h1 {
+    color: var(--main-tawny);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.box h1 article{
+    position: absolute;
+    
+}
+
+.hero img {
+    float: right;
+    display: block;
+    width: 100%;
+    height: auto;
+}
