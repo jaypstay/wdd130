@@ -16,11 +16,14 @@
 
 p {
     font-family: 'Noto Sans Display', serif;
-    color: var(--main-tawny)
 }
 
 h1 {
     color: var(--main-tawny);
+}
+
+h2 {
+    color: var(--main-tawny)
 }
 
 a {
