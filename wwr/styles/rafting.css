@@ -47,6 +47,79 @@ a {
 }
 
 .socialmedia {
-    width: 2%;
+    display: flex;
+    justify-content: right;
+    height: auto;
+}
+
+.flexbox-item-1 {
+    min-height: 20px;
+}
+
+.flexbox-item-2 {
+    min-height: 20px;
+}
+
+.flexbox-item-3 {
+    min-height: 20px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+heder img {
+    grid-column: 1;    
+}
+
+.logo {
+    grid-column: 1;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin-right: 20px;
+
+}
+
+.nav a {
+    color: var(--main-tawny)
+}
+
+.history {
+    display: grid;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container p {
+    margin: 0 10px;
+}
+
+.flex-container img {
+    width: 100px;
     height: auto;
 }
