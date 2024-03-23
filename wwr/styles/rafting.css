@@ -67,8 +67,9 @@ a {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto auto;
     align-items: center;
+    gap: 5px;
 
 }
 
