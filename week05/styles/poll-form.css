@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'noto san display';
+    font-size: 100%;
+    color: #CC5803;
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border: 1px solid(0, 0, 0, 0.1);
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0 ,0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: #71697A;
+    font-size: 1rem;
+}
+
+label, input, button, select, textarea {
+    font-family: monospace, sans-serif, serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.2rem;
+}
+
+input, select, textarea {
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: .8rem;
+    color: navy;
+    border-top: 1px solid #ccc;
+}
