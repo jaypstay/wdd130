@@ -29,7 +29,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1.2rem;
-    border: 1px solid(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #eee;
     display: grid;
 }
@@ -89,4 +89,18 @@ footer {
     font-size: .8rem;
     color: navy;
     border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
 }
