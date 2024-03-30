@@ -132,7 +132,7 @@ heder img {
 /* New itemes from contact.html */
 
 form {
-    width: 700px;
+    width: 650px;
     margin: 0 auto;
     padding: 1.2rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -154,6 +154,45 @@ legend {
     font-size: 1rem;
 }
 
+label, input, button, select, textarea {
+    font-family: monospace, sans-serif, serif;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.2rem;
+}
+
+input, select, textarea {
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+input #username {
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
 .profile {
     max-width: 25%;
     height: auto;
@@ -170,12 +209,34 @@ legend {
     text-align: center;
 }
 
-figcaption {
-    font-size: 1.2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.form-item-column1,
+.form-item-column2 {
+  display: flex;
+  flex-direction: column;
 }
 
-.form-item-column1 {
-    
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.flex-item {
+  margin-bottom: 1rem;
+}
+
+.form-item-column1 .flex-item {
+  flex-basis: 50%;
+}
+
+.form-item-column2 .flex-item:first-child {
+  flex-basis: 50%;
+}
+
+.form-item-column2 .flex-item:nth-child(2) {
+  flex-basis: 25%;
+}
+
+button {
+  align-self: flex-end;
+  margin-top: 1rem;
 }
