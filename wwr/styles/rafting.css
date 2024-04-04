@@ -31,7 +31,12 @@ a {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .box h1 article{
@@ -73,14 +78,24 @@ a {
 
 }
 
-header {
+.header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 heder img {
     grid-column: 1;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001; /* Set a higher z-index to ensure it appears on top of the nav menu */
+    opacity: 0.25;
 }
 
 .logo {
@@ -239,4 +254,17 @@ button:hover {
 button {
   align-self: flex-end;
   margin-top: 1rem;
+}
+
+.tripsphoto {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 30px;
+    padding: 15px;
+}
+
+.tipsimg {
+    width: 100%;
+    height: auto;
+
 }
