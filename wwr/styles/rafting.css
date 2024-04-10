@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -63,8 +64,9 @@ a {
 .hero img {
     float: right;
     display: block;
-    width: 100%;
-    height: auto;
+    height: 50%;
+    width: auto%;
+    
 }
 
 .grid {
@@ -74,7 +76,6 @@ a {
     gap: 5px;
 
 }
-
 
 header {
     display: grid;
@@ -90,34 +91,16 @@ header {
 header img {
     grid-column: 1;    
     position: fixed;
+    height: 60px;
     top: 0;
     left: 0;
     z-index: 1000;
-    opacity: 50%;
+    opacity: 95%;
 }
 
 .logo {
     grid-column: 1;
     margin-right: 20px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-.nav li {
-    margin-right: 20px;
-
-}
-
-.nav a {
-    color: var(--main-tawny)
 }
 
 .history {
@@ -278,6 +261,8 @@ nav {
     display: flex;
     align-items: center;
     padding: 0px;
+    color: var(--nav-link-color);
+    justify-content: center;
 }
 
 nav a {
@@ -299,25 +284,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.socialmedia {
-    display: flex;
-    justify-content: right;
-    height: auto;
-    position: fixed;
-}
-
-.flexbox-item-1 {
-    min-height: 20px;
-}
-
-.flexbox-item-2 {
-    min-height: 20px;
-}
-
-.flexbox-item-3 {
-    min-height: 20px;
-}
-
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -328,24 +294,70 @@ nav a:hover {
     grid-column: 1 / 4;
     grid-row: 1;
     align-content: center;
-  }
-  .two {
+}
+
+.two {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-  }
-  .two img {
+}
+    
+.two img {
     width: 25%;
     height: auto;
-  }
-  .three {
+}
+
+.three {
     grid-column: 2;
     grid-row: 2 / 5;
-  }
-  .four {
+}
+
+.four {
     grid-column: 3;
     grid-row: 3;
-  }
-  .four img{
+}
+
+.four img{
     width: 90%;
     height: auto;
-  }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.socialmedia {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10%;
+bottom: 0;
+}
+
+.socialmedia a {
+margin: 0 10px;
+}
+
+.socialmedia img {
+    height: 20px;
+}
+
+/* .flexbox-item-1 {
+    min-height: 5px;
+    bottom: 0;
+}
+
+.flexbox-item-2 {
+    min-height: 20px;
+}
+
+.flexbox-item-3 {
+    min-height: 20px;
+}
